@@ -41,8 +41,11 @@ ul {
   font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 900;
   line-height: 0.9;
-  letter-spacing: -5px;
-  text-shadow: 0 8px 24px rgba(0,0,0,0.45);
+  letter-spacing: -4px;
+  white-space: nowrap;
+
+  text-shadow:
+    0 8px 24px rgba(0,0,0,0.45);
 }
 
 .biblio {
