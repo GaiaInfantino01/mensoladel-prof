@@ -38,7 +38,7 @@ ul {
 }
 
 .big-logo {
-  font-size: clamp(4.2rem, 11vw, 8.5rem);
+  font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 900;
   line-height: 0.9;
   letter-spacing: -5px;
