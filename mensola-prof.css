@@ -278,9 +278,11 @@ ul {
     padding: 35px 16px;
   }
 
+  @media (max-width: 760px) {
   .big-logo {
-    font-size: 3.8rem;
-    letter-spacing: -2px;
+    font-size: clamp(2rem, 8vw, 3.2rem);
+    letter-spacing: -1px;
+    white-space: nowrap;
   }
 
   .hero-nav {
